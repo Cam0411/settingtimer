@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: url("https://wallpaper.dog/large/20492370.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cotainer {
+  height: 100vh;
+  -webkit-box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 500px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cotainer .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.cotainer .time__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cotainer .time__box .hours {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cotainer .time__box .hours .num__hours {
+  padding: 20px 22px;
+  text-align: center;
+  background: #fff;
+  color: #000;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+}
+
+.cotainer .time__box .hours .time {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cotainer .time__box .min {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cotainer .time__box .min .num__min {
+  padding: 20px 22px;
+  text-align: center;
+  background: #fff;
+  color: #000;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+}
+
+.cotainer .time__box .min .time {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cotainer .time__box .sec {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cotainer .time__box .sec .num__sec {
+  padding: 20px 22px;
+  text-align: center;
+  background: #fff;
+  color: #000;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+}
+
+.cotainer .time__box .sec .time {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cotainer .button__box {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 5%;
+  cursor: pointer;
+}
+
+.cotainer .button__box .pause__resume-box {
+  margin-bottom: 10px;
+}
+
+.cotainer .button__box .reset {
+  margin-left: -2px;
+}
+
+.cotainer .search__box {
+  margin-top: 40px;
+  background: none;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  -webkit-appearance: none;
+}
+
+.cotainer .search__box::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.cotainer .search__box:-ms-input-placeholder {
+  color: #fff;
+}
+
+.cotainer .search__box::-ms-input-placeholder {
+  color: #fff;
+}
+
+.cotainer .search__box::placeholder {
+  color: #fff;
+}
+
+@media (max-width: 750px) {
+  .cotainer .time__box .hours {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cotainer .time__box .hours .num__hours {
+    width: 60px;
+    height: 60px;
+  }
+  .cotainer .time__box .min {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cotainer .time__box .min .num__min {
+    width: 60px;
+    height: 60px;
+  }
+  .cotainer .time__box .sec {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cotainer .time__box .sec .num__sec {
+    width: 60px;
+    height: 60px;
+  }
+  .cotainer .button__box {
+    top: 80%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

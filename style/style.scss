@@ -1,0 +1,217 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body 
+{
+    background: url("https://wallpaper.dog/large/20492370.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cotainer  
+{
+    height: 100vh;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    .title
+    {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .time__box 
+    {
+        display: flex;
+        .hours 
+        {
+            margin-left: 20px;
+            margin-right: 20px;
+            .num__hours 
+            {
+                padding: 20px 22px;
+                text-align: center;
+                background: #fff;
+                color: #000;
+                margin-bottom: 10px;
+                border-radius: 15px;
+                width:70px;
+                height:70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
+            }
+           .time 
+           {
+            
+               text-align: center;
+               font-size: 14px;
+               font-weight: 700;
+      
+               color: #fff;
+           }
+        }
+        .min
+        {
+            margin-left: 20px;
+            margin-right: 20px;
+            .num__min
+            {
+                padding: 20px 22px;
+                text-align: center;
+                background: #fff;
+                color: #000;
+                margin-bottom: 10px;
+                     border-radius: 15px;
+                width:70px;
+                height:70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
+                
+            }
+           .time 
+           {
+            
+               text-align: center;
+               font-size: 14px;
+               font-weight: 700;
+ 
+               color: #fff;
+           }
+        }
+        .sec
+        {
+            margin-left: 20px;
+            margin-right: 20px;
+            .num__sec
+            {
+                padding: 20px 22px;
+                text-align: center;
+                background: #fff;
+                color: #000;
+                margin-bottom: 10px;
+                border-radius: 15px;
+                width:70px;
+                height:70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
+            }
+           .time 
+           {
+            
+               text-align: center;
+               font-size: 14px;
+               font-weight: 700;
+            
+               color: #fff;
+           }
+        }
+    }
+    .button__box 
+    {
+        position: absolute;
+        color: #fff;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 5%;
+        cursor: pointer;
+        .pause__resume-box 
+        {
+            margin-bottom: 10px;
+        }
+        .reset 
+        {
+            margin-left: -2px;
+        }
+    }
+    .search__box
+    {
+        margin-top: 40px;
+        background: none;
+        background: none;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #fff;
+        color: #fff;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        -webkit-appearance: none;
+        &::placeholder 
+        {
+            color: #fff;
+        }
+    }
+}
+@media (max-width:750px){
+    .cotainer  
+    {
+        .time__box 
+        {
+            .hours 
+            {
+                margin-left: 10px;
+                margin-right: 10px;
+                .num__hours 
+                {
+            
+                    width:60px;
+                    height:60px;
+    
+                }
+         
+            }
+            .min
+            {
+                margin-left: 10px;
+                margin-right: 10px;
+                .num__min
+                {
+               
+                    width:60px;
+                    height:60px;
+              
+                    
+                }
+           
+            }
+            .sec
+            {
+                margin-left: 10px;
+                margin-right: 10px;
+                .num__sec
+                {
+            
+                    width:60px;
+                    height:60px;
+                
+                }
+             
+            }
+        }
+        .button__box 
+        {
+            top: 80%;
+        }
+    }
+}
